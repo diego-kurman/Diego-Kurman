@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 2;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1f1f1f;
+}
+
+nav li {
+    display: inline;
+    margin: 0 4%;
+    color: #747171;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.logo{
+    animation: animalogo 10s infinite ease-in-out;
+}
+
+@keyframes animalogo {
+
+    0% {
+        
+        fill:#747171;
+        stroke-dasharray: 20;
+        stroke: #747171;
+       }
+      
+      80%{
+          stroke: #747171;
+          
+          
+      } 
+      90%{
+          stroke-dasharray: 100;
+      }
+      100% {
+          
+        
+        
+      }
+    }
+
+.menu{
+
+    transition: 1s ease-in-out;
+    margin: 0 7%;
+    font-family: 'Raleway', sans-serif;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.menu:hover{
+    color: #e0e0e0;
+    border-bottom: 1px ridge rgb(224, 224, 224);
+}
