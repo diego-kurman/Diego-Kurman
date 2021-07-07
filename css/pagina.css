@@ -28,7 +28,7 @@ nav li {
     0% {
         
         
-        stroke-dasharray: 20;
+        stroke-dasharray: 300;
         
        }
       
@@ -42,7 +42,7 @@ nav li {
       }
       100% {
           
-        stroke-dasharray: 22;
+        stroke-dasharray: 202;
         
       }
     }
