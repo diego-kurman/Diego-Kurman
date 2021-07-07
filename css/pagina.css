@@ -5,12 +5,12 @@
 }
 
 body{
-    background-color: #1f1f1f;
+    background-color: rgb(1, 2, 14);
 }
 
 nav li {
     display: inline;
-    margin: 0 4%;
+    margin: 0 ;
     color: #747171;
     cursor: pointer;
     align-items: center;
@@ -27,29 +27,29 @@ nav li {
 
     0% {
         
-        fill:#747171;
+        
         stroke-dasharray: 20;
-        stroke: #747171;
+        
        }
       
       80%{
-          stroke: #747171;
+          
           
           
       } 
       90%{
-          stroke-dasharray: 100;
+          stroke-dasharray: 25;
       }
       100% {
           
-        
+        stroke-dasharray: 22;
         
       }
     }
 
 .menu{
 
-    transition: 1s ease-in-out;
+    transition: 0.7s ease-in-out;
     margin: 0 7%;
     font-family: 'Raleway', sans-serif;
     align-items: center;
@@ -58,6 +58,6 @@ nav li {
 }
 
 .menu:hover{
-    color: #e0e0e0;
+    color: #ffffff;
     border-bottom: 1px ridge rgb(224, 224, 224);
 }
